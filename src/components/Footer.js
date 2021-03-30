@@ -4,39 +4,25 @@ import "../css-components/footer.css";
 const Footer = () => {
   return (
     <div className="footerContainer">
-      <div>
-        <p className="footerText"><b>Created by Qui</b></p>
-        <div className="linkedin">
-          <img
-            src="https://cdn.iconscout.com/icon/free/png-256/linkedin-191-739516.png"
-            className="linkedinimage"
-            alt="linkedin logo"
-          />
-          <a
-            href="https://www.linkedin.com/in/qui-van/"
-            target="_blank"
-            rel="noreferrer"
-            className="linktext"
-          >
-            LinkedIn
-          </a>
-        </div>
-        <div className="github">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
-            className="githubimage"
-            alt="github logo"
-          />
-          <a
-            href="https://github.com/van3396"
-            target="_blank"
-            rel="noreferrer"
-            className="linktext"
-          >
-            Github
-          </a>
-        </div>
-      </div>
+      <p className="footerName">Created by Qui</p>
+      <a
+        href="https://www.linkedin.com/in/qui-van/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          src="https://www.maryville.edu/wp-content/uploads/2015/11/Linkedin-logo-1-550x550-300x300.png"
+          className="linkedinimage"
+          alt="linkedin logo"
+        />
+      </a>
+      <a href="https://github.com/van3396" target="_blank" rel="noreferrer">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+          className="githubimage"
+          alt="github logo"
+        />
+      </a>
     </div>
   );
 };
