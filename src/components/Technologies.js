@@ -11,8 +11,8 @@ import html from "../images/html.png";
 import css from "../images/css.png";
 import materialUI from "../images/material-ui.png";
 import sequelize from "../images/sequelize.png";
-import cloudways from "../images/cloudways.png"
-import php from "../images/php.png"
+import cloudways from "../images/cloudways.png";
+import php from "../images/php.png";
 
 const Technologies = () => {
   const logos = [
@@ -28,7 +28,7 @@ const Technologies = () => {
     materialUI,
     sequelize,
     cloudways,
-    php
+    php,
   ];
   return (
     <>
