@@ -1,26 +1,20 @@
 .header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-left: 20px;
-  margin-right: 20px;
+  text-align: center;
 }
 
-.headerLinks {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 20px;
+.fullName {
+  color:blue;
+  font-size: xx-large;
 }
 
-.link {
-  margin-right: 20px;
+.fname {
+  color: red
 }
 
-.headerName {
-  font-size: 25px;
+.phrase {
+  font-size: 10px;
 }
 
-hr {
-    border: solid;
-   border-width: 1px; 
+.by {
+  font-size: 8px;
 }

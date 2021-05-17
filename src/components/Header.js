@@ -4,18 +4,21 @@ import "../css-components/header.css";
 const Header = () => {
   return (
     <>
-    <header className="header">
-      <p className="headerName">Qui Van</p>
-      {/* <h2>Software Engineer</h2>
-    <h2>Poker Player</h2>
-    <h2>Personal Development</h2> */}
-      <div className="headerLinks">
-        <p className="link">About Me</p>
-        <p className="link">Projects</p>
-        <p className="link">Resume</p>
-      </div>
-    </header>
-    <hr/>
+      <header className="header">
+        <div>
+          <p className="fullName">
+            <strong className="fname">QUI </strong>VAN
+          </p>
+          <p>I am a software engineer.</p>
+          <p className="phrase">
+            “Personal development is an unending challenge to see what you can
+            become…”
+          </p>
+          <p className="phrase by">
+            <i>– a Wiseman</i>
+          </p>
+        </div>
+      </header>
     </>
   );
 };

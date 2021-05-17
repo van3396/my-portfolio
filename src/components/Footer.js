@@ -4,7 +4,8 @@ import "../css-components/footer.css";
 const Footer = () => {
   return (
     <div className="footerContainer">
-      <p className="footerName">Don't be shy, connect with me!</p>
+      <hr/>
+      <p className="footerName">Connect with me.</p>
       <a
         href="https://www.linkedin.com/in/qui-van/"
         target="_blank"
@@ -23,6 +24,7 @@ const Footer = () => {
           alt="github logo"
         />
       </a>
+      <p className="copyright">Copyright 2021 &copy; Qui Van</p>
     </div>
   );
 };
