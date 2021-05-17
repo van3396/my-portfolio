@@ -24,7 +24,7 @@ const Footer = () => {
           alt="github logo"
         />
       </a>
-      <p className="copyright">Copyright 2021 &copy; Qui Van</p>
+      <p className="copyright">Copyright  &copy;2021 Qui Van</p>
     </div>
   );
 };
