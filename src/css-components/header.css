@@ -18,3 +18,21 @@
 .by {
   font-size: 8px;
 }
+
+.me {
+  height: 150px;
+  margin-bottom: 4px;
+  margin-left: 20px;
+}
+
+.header_info {
+  display: flex;
+  flex-wrap: flex;
+  align-content: center;
+}
+
+.header_about_me {
+  margin-left: 20px;
+  
+  text-align: left;
+}
