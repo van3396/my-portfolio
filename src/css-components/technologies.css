@@ -7,3 +7,9 @@ img {
     margin-bottom: 4px;
     margin-left: 20px;
   }
+
+  .stacks img{
+    height: 50px;
+    margin-bottom: 4px;
+    margin-left: 20px; 
+  }

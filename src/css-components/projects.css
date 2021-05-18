@@ -1,0 +1,27 @@
+.capstone {
+  display: flex;
+  flex-wrap: flex;
+  align-content: space-around;
+}
+.capstone img {
+  height: 250px;
+  margin-bottom: 4px;
+  margin-left: 20px;
+  border: 1px solid black;
+}
+
+.btg h6 {
+  color: #5e2cba;
+  text-align: center;
+}
+
+.btg p {
+  margin-left: 10px;
+  font-size: 8px;
+}
+
+.btg img {
+  height: 35px;
+  margin-bottom: 4px;
+  margin-left: 20px;
+}
