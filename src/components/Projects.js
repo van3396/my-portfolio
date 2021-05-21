@@ -3,6 +3,7 @@ import "../css-components/projects.css";
 import btg from "../images/btg.png";
 import weatherapp from "../images/weatherapp.png";
 import githubOrg from "../images/medium.png";
+import github from "../images/github.png"
 import pern from "../images/pern.png";
 import d3 from "../images/d3.png";
 import js from "../images/js.png";
@@ -89,7 +90,7 @@ const Projects = () => {
            It is pretty simple if done right, else when it comes to pushing and pulling with other members in your group
            group, you might run into problems.  I had to learn this the hard way of course.  So remember, follow the instructions.
           </p>
-       
+          <img src={github} alt="" />
         </div>
       </div>
     </>
