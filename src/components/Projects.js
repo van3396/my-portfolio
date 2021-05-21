@@ -1,7 +1,8 @@
 import React from "react";
 import "../css-components/projects.css";
 import btg from "../images/btg.png";
-import weatherapp from "../images/weatherapp.png"
+import weatherapp from "../images/weatherapp.png";
+import githubOrg from "../images/medium.png";
 import pern from "../images/pern.png";
 import d3 from "../images/d3.png";
 import js from "../images/js.png";
@@ -26,11 +27,11 @@ const Projects = () => {
           >
             <img className="projectPic" src={btg} />
           </a>
-          <p className='webLink'>(click on image to view site)</p>
+          <p className="webLink">(click on image to view site)</p>
         </div>
         <div className="btg">
           <h4>Bridge the Gap</h4>
-          
+
           <p>
             Bridge the Gap is about more than just collecting data. The gender
             pay gap exists in our world today, but there are ways we can help
@@ -45,11 +46,12 @@ const Projects = () => {
       </div>
 
       <div className="project">
-      <div className="btg">
+        <div className="btg">
           <h4 className="weatherTitle">My Weather App</h4>
-          
+
           <p>
-            Check the weather anywhere in the world.  Using weathstack and mapbox APIs.
+            Check the weather anywhere in the world. Using weathstack and mapbox
+            APIs.
           </p>
           <img src={node} alt="" />
           <img src={handlebars} alt="" />
@@ -61,11 +63,34 @@ const Projects = () => {
             rel="noreferrer"
             className="linktext"
           >
-            <img className="projectPic" src={weatherapp} />
+            <img className="projectPic" src={weatherapp} alt="" />
           </a>
-          <p className='webLink'>(click on image to view site)</p>
+          <p className="webLink">(click on image to view site)</p>
         </div>
-      
+      </div>
+
+      <div className="project">
+        <div>
+          <a
+            href="https://qui-van.medium.com/setting-up-organizations-on-github-is-simple-if-done-right-8f0b2ccd274c/"
+            target="_blank"
+            rel="noreferrer"
+            className="linktext"
+          >
+            <img className="projectPic" src={githubOrg} />
+          </a>
+          <p className="webLink">(click on image to view site)</p>
+        </div>
+        <div className="mediumArticle">
+          <h4>Setting up Organizations on Github is simple...</h4>
+
+          <p>
+           This medium article I wrote gives you a step by step guide on how to set up an organization on GitHub.
+           It is pretty simple if done right, else when it comes to pushing and pulling with other members in your group
+           group, you might run into problems.  I had to learn this the hard way of course.  So remember, follow the instructions.
+          </p>
+       
+        </div>
       </div>
     </>
   );

@@ -33,3 +33,15 @@
   color: black !important;
 }
 
+.mediumArticle {
+  color: black !important;
+}
+
+.mediumArticle p {
+  margin-left: 10px;
+  font-size: 10px;
+}
+
+.mediumArticle h4 { 
+  text-align: center;
+}
