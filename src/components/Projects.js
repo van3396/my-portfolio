@@ -79,7 +79,7 @@ const Projects = () => {
           >
             <img className="projectPic" src={githubOrg} />
           </a>
-          <p className="webLink">(click on image to view site)</p>
+          <p className="webLink">(click on image to view article)</p>
         </div>
         <div className="mediumArticle">
           <h4>Setting up Organizations on Github is simple...</h4>
