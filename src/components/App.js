@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./app.css"
 import Footer from "./Footer";
 import Header from "./Header";
 import Technologies from "./Technologies";
