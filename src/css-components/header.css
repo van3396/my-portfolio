@@ -2,13 +2,8 @@
   text-align: center;
 }
 
-.fullName {
-  color:blue;
-  font-size: xx-large;
-}
-
-.fname {
-  color: red
+.logo {
+margin-top: 10px;
 }
 
 .phrase {
