@@ -6,7 +6,7 @@ import qui from "../images/quiVanLogo.png";
 const Header = () => {
   return (
     <>
-      {/* <img className="logo" src={qui} alt="" /> */}
+      <img className="logo" src={qui} alt="" />
       <header className="header">
         <div>
           <p className="phrase">
