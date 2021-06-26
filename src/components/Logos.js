@@ -11,9 +11,9 @@ import css from "../images/css.png";
 import materialUI from "../images/material-ui.png";
 import sequelize from "../images/sequelize.png";
 import cloudways from "../images/cloudways.png";
-import php from "../images/php.png";
 import handlebars from "../images/handlebars.png";
 import ejs from "../images/ejs.png";
+import netlify from "../images/netlify.png";
 
 const Logos = () => {
   const logos = [
@@ -29,9 +29,9 @@ const Logos = () => {
     materialUI,
     sequelize,
     cloudways,
-    php,
     handlebars,
     ejs,
+    netlify
   ];
 
   return (

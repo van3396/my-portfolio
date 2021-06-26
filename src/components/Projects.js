@@ -3,7 +3,7 @@ import "../css-components/projects.css";
 import btg from "../images/btg.png";
 import weatherapp from "../images/weatherapp.png";
 import githubOrg from "../images/medium.png";
-import github from "../images/github.png"
+import github from "../images/github.png";
 import pern from "../images/pern.png";
 import d3 from "../images/d3.png";
 import js from "../images/js.png";
@@ -12,6 +12,9 @@ import materialUI from "../images/material-ui.png";
 import sequelize from "../images/sequelize.png";
 import node from "../images/node.png";
 import handlebars from "../images/handlebars.png";
+import todo from "../images/todo.png";
+import react from "../images/react.png";
+import netlify from "../images/netlify.png";
 
 const Projects = () => {
   const logos = [pern, d3, js, rb, materialUI, sequelize, node];
@@ -73,6 +76,33 @@ const Projects = () => {
       <div className="project">
         <div>
           <a
+            href="https://quivan-todo.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="linktext"
+          >
+            <img className="projectPic" src={todo} />
+          </a>
+          <p className="webLink">(click on image to view site)</p>
+        </div>
+        <div className="btg">
+          <h4 className="todoTitle">Qui's ToDo</h4>
+
+          <p>
+            Simple ToDo application using React. Using useState() hook and
+            JavaScript .map() function to render content. This application was
+            deployed on Netlify, which was pretty simple after deploying 2-3
+            previous applications.
+          </p>
+          <img src={react} alt="" />
+          <img src={js} alt="" />
+          <img src={netlify} alt="" />
+        </div>
+      </div>
+
+      <div className="project">
+        <div>
+          <a
             href="https://qui-van.medium.com/setting-up-organizations-on-github-is-simple-if-done-right-8f0b2ccd274c/"
             target="_blank"
             rel="noreferrer"
@@ -86,9 +116,11 @@ const Projects = () => {
           <h4>Setting up Organizations on Github is simple...</h4>
 
           <p>
-           This medium article I wrote gives you a step by step guide on how to set up an organization on GitHub.
-           It is pretty simple if done right, else when it comes to pushing and pulling with other members in your group
-           group, you might run into problems.  I had to learn this the hard way of course.  So remember, follow the instructions.
+            This medium article I wrote gives you a step by step guide on how to
+            set up an organization on GitHub. It is pretty simple if done right,
+            else when it comes to pushing and pulling with other members in your
+            group group, you might run into problems. I had to learn this the
+            hard way of course. So remember, follow the instructions.
           </p>
           <img src={github} alt="" />
         </div>
